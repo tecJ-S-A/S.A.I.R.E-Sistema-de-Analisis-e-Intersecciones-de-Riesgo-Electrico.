@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Pesos de modelos (pesan mucho, se descargan/copian aparte)
+*.pt
+
+# Historial generado por la app (datos locales del usuario)
+historial/
+
+# Archivos de depuracion generados por debug_cables.py
+debug_*.png
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/

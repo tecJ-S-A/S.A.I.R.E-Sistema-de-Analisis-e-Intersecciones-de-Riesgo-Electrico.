@@ -1,0 +1,13 @@
+# Dependencias de S.A.I.R.E. PRO
+# Instalar con: pip install -r requirements.txt
+
+ultralytics>=8.4.0     # incluye soporte para YOLO26 y YOLOv8
+opencv-python>=4.9
+numpy>=1.26
+scipy>=1.11
+Pillow>=10.2
+matplotlib>=3.8        # solo lo usa debug_cables.py (calibracion visual)
+fpdf2>=2.7
+streamlit>=1.35         # solo lo usa app_web.py (interfaz web)
+scikit-learn>=1.4       # solo lo usa entrenar_modelo_cables.py (modelo ML opcional)
+joblib>=1.3             # solo lo usan entrenar_modelo_cables.py y modelo_ml.py
